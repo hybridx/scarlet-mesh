@@ -1,0 +1,19 @@
+{
+  "tags": ["type:mcp-server"],
+  "targets": {
+    "start-all": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          {
+            "command": "npm run build-all && npm run generate-manifest"
+          },
+          {
+            "command": "npm run run-all-client"
+          }
+        ],
+        "parallel": false 
+      }
+    }
+  }
+}

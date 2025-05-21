@@ -1,0 +1,18 @@
+default:
+  tags: [shared-podman]
+
+image: node:20
+variables:
+  CI: 'true'
+  NX_NO_CLOUD: true
+
+# Main job
+CI:
+  interruptible: true
+  only:
+    - main
+    - merge_requests
+  script:
+    - npm install
+    - npm run build-all
+  allow_failure: true

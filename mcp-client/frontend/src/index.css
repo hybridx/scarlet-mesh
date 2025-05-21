@@ -1,0 +1,18 @@
+:root {
+  font-family: 'Red Hat Text';
+}
+
+.pf-v6-c-banner {
+  font-size: 16px;
+  background-color: #323232d9;
+  color: #ececec;
+}
+
+a {
+  color: #06c;
+  text-decoration: underline;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
