@@ -1,8 +1,8 @@
 # ScarletMesh
 
-**ScarletMesh** is a monorepo for intelligent MCP (Model-Controller-Protocol) services that provide contextual Red Hat data through natural language queries. Powered by Nx for modular development, this workspace currently hosts three primary services:
+**ScarletMesh** is a monorepo for intelligent MCP (Model-Controller-Protocol) services that provide contextual data through natural language queries. Powered by Nx for modular development, this workspace currently hosts three primary services:
 
-- 🔍 **Red Hat Labs Finder**
+- 🔍 * Labs Finder**
 - 🛡️ **CVE Insight Server**
 - 📆 **Product Lifecycle Server**
 
@@ -10,7 +10,7 @@
 
 ## 🧠 Overview
 
-ScarletMesh enables Red Hat teams, support engineers, and security professionals to quickly access and understand internal tooling, CVE information, and product lifecycle data using intuitive natural language queries.
+ScarletMesh enables teams, support engineers, and security professionals to quickly access and understand internal tooling, CVE information, and product lifecycle data using intuitive natural language queries.
 
 This repository follows a **monorepo pattern using Nx**, offering consistent tooling, fast builds, and a clear structure for scalable development.
 
@@ -26,14 +26,14 @@ This repository follows a **monorepo pattern using Nx**, offering consistent too
 
 ## 📦 MCP Services
 
-### 1. Red Hat Labs Finder
+### 1. Labs Finder
 
 - **Endpoint**: `POST /labs-query`
 - **Payload**:
   ```json
   { "query": "I need a tool to check RHEL performance" }
   ```
-- **Returns**: Best matching Red Hat Labs resource/tool
+- **Returns**: Best matching Labs resource/tool
 
 ### 2. CVE Insight Server
 
@@ -139,7 +139,7 @@ npx nx graph
 - 💬 Customer Support
 - 🧑‍💼 Product Management
 - 🧪 Security Response Team
-- 🧰 Red Hat Labs Maintainers
+- 🧰 Labs Maintainers
 
 ---
 
